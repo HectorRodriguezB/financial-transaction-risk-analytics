@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Local data
+data/
+
+# Common large data files
+*.parquet
+*.feather
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
